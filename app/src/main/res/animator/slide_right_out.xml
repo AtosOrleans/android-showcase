@@ -1,0 +1,10 @@
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillAfter="true">
+
+    <objectAnimator
+        android:duration="500"
+        android:propertyName="x"
+        android:valueFrom="200"
+        android:valueTo="1000" />
+
+</set>

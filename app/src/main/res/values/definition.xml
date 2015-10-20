@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="risque_inondation">Risque d\'inondation faible.</string>
+
+    <string name="risque_retrait">Localisation exposée aux retrait-gonflements des argiles. Aléa fort.</string>
+
+    <string name="risque_mouvement">Aucun mouvement de terrains recensés dans un rayon de 200m.</string>
+
+    <string name="risque_cavite">Aucune cavités recensées dans un rayon de 200m.</string>
+
+    <string name="risque_seisme">Localisation exposée aux séismes. \nType d\'exposition : 1 - TRES FAIBLE.</string>
+
+    <string name="risque_pollue">Aucun sites pollués dans un rayon de 200m. </string>
+
+    <string name="risque_classe">  Votre installation est concernée par des installations classées : 0.
+    \nVotre installation est impactée par des installations classées : 8.</string>
+
+    <string name="risque_canalisation">Aucune Canalisations de matières dangereuses dans un rayon de 100m.</string>
+
+    <string name="risque_nucleaire">Installations nucléaires dans un rayon de 10km : Non.
+    \nCentrales nucléaires dans un rayon de 20km : Non.</string>
+
+    <string name="description_inondation">Lorsque le sol est saturé d’eau,
+        il arrive que les nappes des formations sédimentaires affleurent et qu\'une inondation spontanée se produise.</string>
+
+
+</resources>

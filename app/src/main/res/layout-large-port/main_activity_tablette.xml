@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivityTablet">
+
+    <fragment
+        android:id="@id/fragment_bandeau"
+        android:name="fr.brgm.georisques.ui.fragment.tablet.BandeauFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/small_vertical_margin"
+        android:layout_weight="0.6"
+        tools:layout="@layout/fragment_bandeau" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10">
+
+
+        <fragment
+            android:name="fr.brgm.georisques.ui.fragment.tablet.CarteFragment"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="@dimen/small_vertical_margin"
+            android:layout_marginRight="@dimen/small_vertical_margin"
+            android:layout_marginTop="@dimen/small_vertical_margin"
+            android:id="@id/fragment_carte"
+            tools:layout="@layout/fragment_carte"/>
+
+        <fragment
+            android:id="@+id/fragment_menu_main"
+            android:name="fr.brgm.georisques.ui.fragment.tablet.MenuCentralFragment"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="@dimen/small_vertical_margin"
+            tools:layout="@layout/fragment_menu_main" />
+
+    </RelativeLayout>
+</LinearLayout>

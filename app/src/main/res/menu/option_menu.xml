@@ -1,0 +1,69 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="fr.brgm.infogeol.ui.view.tablet.MainActivityTablet">
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_magnifier"
+        android:showAsAction="ifRoom"
+        android:title="Changer de lieu"
+        android:actionViewClass="android.widget.SearchView"/>
+
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/ic_settings"
+        android:showAsAction="ifRoom"
+        android:title="Paramètres" >
+
+
+        <menu>
+
+            <group android:id="@+id/LesFond"
+                android:checkableBehavior="single">
+
+                <TextView android:id="@+id/LesFondText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:paddingBottom="5dp"
+                    android:text="Les Fonds"
+                    android:textColor="@color/ColorPink" />
+
+                <include layout="@layout/underline_text"/>
+
+                <item
+                    android:id="@+id/radioFondTopologique"
+                    android:orderInCategory="2"
+                    android:showAsAction="never"
+                    android:title="@string/FondToppologique"/>
+                <item
+                    android:id="@+id/radioFondSatellite"
+                    android:orderInCategory="3"
+                    android:showAsAction="never"
+                    android:title="@string/FondSatellite"/>
+                </group>
+
+        </menu>
+
+        </item>
+
+    <item
+        android:id="@+id/menu_new_form"
+        android:icon="@drawable/ic_more_menu"
+        android:showAsAction="ifRoom"
+        android:title="@string/plusInfo">
+        <menu>
+            <item
+                android:id="@+id/MenulimiteUtilisation"
+                android:title="@string/limite_utilisation" />
+            <item
+                android:id="@+id/MenuPortailBRGM"
+                android:title="@string/portail_brgm" />
+            <item
+                android:id="@+id/MenuPortailGeoRisques"
+                android:title="@string/portail_georisque" />
+        </menu>
+    </item>
+
+
+</menu>

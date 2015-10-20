@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="BorderedElementTopSmall" parent="AppTheme">
+        <item name="android:layout_marginTop">@dimen/small_vertical_margin</item>
+    </style>
+
+    <style name="BorderedElementTopLeftSmall" parent="AppTheme">
+        <item name="android:layout_marginTop">@dimen/small_vertical_margin</item>
+        <item name="android:layout_marginLeft">@dimen/small_vertical_margin</item>
+    </style>
+
+    <style name="BorderedElementTopLeftRightSmall" parent="AppTheme">
+        <item name="android:layout_marginTop">@dimen/small_vertical_margin</item>
+        <item name="android:layout_marginLeft">@dimen/small_vertical_margin</item>
+        <item name="android:layout_marginRight">@dimen/small_vertical_margin</item>
+    </style>
+
+    <style name="BorderedElementTopBotRightSmall" parent="AppTheme">
+        <item name="android:layout_marginTop">@dimen/small_vertical_margin</item>
+        <item name="android:layout_marginBottom">@dimen/small_vertical_margin</item>
+        <item name="android:layout_marginRight">@dimen/small_vertical_margin</item>
+    </style>
+
+    <style name="BorderedElementTopRightSmall" parent="AppTheme">
+        <item name="android:layout_marginTop">@dimen/small_vertical_margin</item>
+        <item name="android:layout_marginRight">@dimen/small_vertical_margin</item>
+    </style>
+
+    <style name="BorderedElementLeftRightSmall" parent="AppTheme">
+        <item name="android:layout_marginLeft">@dimen/small_vertical_margin</item>
+        <item name="android:layout_marginRight">@dimen/small_vertical_margin</item>
+    </style>
+
+    <style name="BorderedElementLeftSmall" parent="AppTheme">
+        <item name="android:layout_marginLeft">@dimen/small_vertical_margin</item>
+    </style>
+
+    <style name="BorderedElement" parent="AppTheme">
+        <item name="android:layout_marginTop">@dimen/small_vertical_margin</item>
+        <item name="android:layout_marginLeft">@dimen/small_vertical_margin</item>
+        <item name="android:layout_marginRight">@dimen/small_vertical_margin</item>
+    </style>
+
+    <style name="BorderedElementList" parent="AppTheme">
+        <item name="android:layout_marginTop">@dimen/medium_horizontal_margin</item>
+        <item name="android:layout_marginLeft">@dimen/medium_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/medium_horizontal_margin</item>
+        <item name="android:layout_marginBottom">@dimen/medium_horizontal_margin</item>
+    </style>
+
+    <style name="smallTopBotRightLeft" parent="AppTheme">
+        <item name="android:layout_marginTop">@dimen/small_vertical_margin</item>
+        <item name="android:layout_marginLeft">@dimen/small_vertical_margin</item>
+        <item name="android:layout_marginRight">@dimen/small_vertical_margin</item>
+        <item name="android:layout_marginBottom">@dimen/small_vertical_margin</item>
+    </style>
+
+
+</resources>

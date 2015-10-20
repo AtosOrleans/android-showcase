@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Recherche">Rech&#8230;</string>
+    <string name="Latitude">Lat : </string>
+    <string name="Longitude">Lng : </string>
+    <string name="Altitude">Altitude : </string>
+    <string name="Environ">~ </string>
+</resources>

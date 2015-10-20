@@ -1,0 +1,160 @@
+<resources>
+    <string name="app_name">Atos Map</string>
+    <string name="statique_carte">Carte statique</string>
+    <string name="coordonnee">Par Coordonnées Postales</string>
+    <string name="gps">Par GPS</string>
+    <string name="rue_adresse">Rue de l\'aqueduc \n\nFleury-les-Aubrais</string>
+    <string name="gps_coordonnee">GPS : 47.919°E - 1.924°N</string>
+    <string name="gps_altitude">Altitude : ~117m</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Choix des Couches</string>
+    <string name="search_bar">Recherche</string>
+    <string name="more_menu">Menu</string>
+    <string name="title_activity_main_activity_tablet">AtosMap</string>
+    <string name="title_activity_main_activity_handset">AtosMap</string>
+
+    <string name="limite_utilisation">Limites d\'utilisation</string>
+    <string name="plusInfo">Plus d\'infos</string>
+    <string name="portail_brgm">Portail BRGM</string>
+
+        <string name="ouvert">ouvert</string>
+        <string name="ferme">ferme</string>
+        <string name="title_activity_search_lieux">SearchLieuxActivity</string>
+
+        <!-- MenuDrawerElements -->
+        <string name="LIMITE_UTILISATION">Limites d\'utilisation</string>
+        <string name="URL_LIMITE_UTILISATION">http://www.google.com</string>
+        <string name="PORTAIL_BRGM">Portail BRGM</string>
+        <string name="URL_PORTAIL_BRGM">http://www.brgm.fr</string>
+        <string name="URL_PORTAIL_GEORISQUES">http://www.georisques.gouv.fr/</string>
+
+        <string name="PORTAIL_INFOTERRE">Portail InfoTerre</string>
+        <string name="URL_PORTAIL_INFOTERRE">http://www.infoterre.fr</string>
+        <string name="default_fragment">Default</string>
+        <string name="animation_fragment">Animation</string>
+
+        <!-- Constants values -->
+        <string name="violet_geologie">#934C94</string>
+        <string name="lattitude">latitude</string>
+        <string name="logitude">longitude</string>
+        <string name="positionCourante">Position Courante</string>
+        <string name="aucun_resultat_lieu_titre">Aucun résulat</string>
+        <string name="aucun_resultat_lieu_sous_titre">pour la recherche</string>
+        <string name="title_activity_base">BaseActivity</string>
+        <string name="GPS_TITRE_MODAL_SETTINGS">Erreur GPS</string>
+        <string name="GPS_CONTENT_MODAL_SETTINGS">Le GPS ne semble pas être activé.\nVeuillez activer le GPS</string>
+        <string name="GPS_OK_BUTTON">Accèder aux paramètres</string>
+        <string name="GPS_KO_BUTTON">Quitter</string>
+        <string name="NETWORK_TITRE_MODAL_SETTINGS">Erreur Internet</string>
+        <string name="NETWORK_CONTENT_MODAL_SETTINGS">L\'accès à internet ne semble pas pouvoir se faire.\n Veuillez configurer votre accès internet.</string>
+        <string name="NETWORK_OK_BUTTON">Accèder aux paramètres</string>
+        <string name="NETWORK_KO_BUTTON">Quitter</string>
+        <string name="mes_risques">Mes Risques</string>
+        <string name="legende_locale">Légende</string>
+        <string name="localiser">Se Localiser</string>
+        <string name="portail_infoterre">Portail InfoTerre</string>
+        <string name="portail_georisque">Portail GeoRisques</string>
+        <string name="title_activity_my_activity_to_remove">MyActivityToRemove</string>
+        <string name="hello_blank_fragment">Hello blank fragment</string>
+        <string name="menu_drawer_carte_titre_aide">Aide pour la carte*</string>
+        <string name="title_activity_handset_fiche_geologique">Mes Risques</string>
+        <string name="title_activity_handset_legende_geologique">Légende</string>
+        <string name="title_activity_handset_recherche_localisation">Se Localiser</string>
+        <string name="title_activity_entry_point">EntryPointActivity</string>
+        <string name="title_activity_echelle_temps">Echelle des temps géologiques</string>
+        <string name="menu_drawer_carte_content_aide">Touchez une zone pour consulter la fiche Géologique\nAttention, les tuiles peuvent prendre du temps à s\'afficher\nEn fonction du zoom, l\'échelle 1/500000 ou l\'échelle 1/1000000 sera utilisée\nLa Légende est disponible en dessous du bouton aide.</string>
+        <string name="title_activity_coupe_geologique">Coupe géologique</string>
+
+        <!-- URLS -->
+        <string name="Recherche">Recherche…</string>
+        <string name="Latitude">Latitude : </string>
+        <string name="Longitude">Longitude : </string>
+        <string name="Altitude">Altitude : </string>
+        <string name="Rue">Rue à proximité :</string>
+        <string name="Ville">Ville :</string>
+        <string name="Environ">~ </string>
+        <string name="ChoixFond">Choix du fond</string>
+        <string name="FondGeologique">Fond Géologique</string>
+        <string name="FondToppologique">Fond Topologique</string>
+        <string name="FondSatellite">Fond Satellite</string>
+        <string name="Inondation">Inondations</string>
+        <string name="InondationSediment">Inondations Sediments</string>
+        <string name="InondationSocle">Inondations Socles</string>
+        <string name="RetraitArgile">Retraits Gonflements Argiles</string>
+        <string name="MouvementTerrain">Mouvements Terrains</string>
+        <string name="Cavite">Cavites Souterraines</string>
+        <string name="Seisme">Seismes</string>
+        <string name="SitePollue">Sites Pollues (BASOL)</string>
+        <string name="InstallationClasse">Installations Classes</string>
+        <string name="Canalisation">Canalisations Dangereuses</string>
+        <string name="InstallationNucleaire">Installations Nucleaires</string>
+        <string name="ChoixElements">Choix des couches</string>
+        <string name="Forages">Ouvrages BSS</string>
+        <string name="CoupesGeologique">Coupes Géologiques</string>
+        <string name="recherche">Recherche …</string>
+        <string name="title_activity_main_activity_tablet_port">MainActivityTabletPort</string>
+        <string name="GPS">GPS :</string>
+        <string name="Localisation">Localisation</string>
+        <string name="AltitudeDots">Altitude : </string>
+        <string name="GPSDots">GPS : </string>
+        <string name="Affleurement">Affleurement</string>
+        <string name="PlusSpaces">\u00A0Plus\u00A0</string>
+        <string name="RandomAffleurement">Marnes et sables de l\'Orléanais</string>
+        <string name="CarteDeLaRegion">Carte géologique</string>
+        <string name="Attention">Attention !</string>
+        <string name="LegendeNotAvailable">La légende n\'est plus disponible pour la position affichée, veuillez la recharger.</string>
+        <string name="LegendeError">Aucune légende n\'est disponible pour ce lieu</string>
+        <string name="Changerlieu">Changer de lieu</string>
+        <string name="RetourPositionCourante">Retour position courante</string>
+        <string name="Lieu">Lieu :</string>
+        <string name="title_activity_handset_map">Carte géologique</string>
+        <string name="Retourcarte">Retour Carte</string>
+        <string name="title_activity_limites_utilisation">Limites d\'utilisation</string>
+        <string name="latest_version">2.0</string>
+        <string name="ErreurRecuperationPointBSS">Erreur lors de la récupération des ouvrages BSS</string>
+        <string name="ErreurRecuperationCoupeGeologique">Erreur lors de la récupération des coupes géologiques</string>
+        <string name="ErreurRecuperationLieuGeographique">Erreur lors de la récupération des lieux géographiques</string>
+        <string name="ErreurRecuperationAltitude">Erreur lors de la récupération de l\'altitude</string>
+        <string name="ErreurRecuperationVille">Erreur lors de la récupération de la ville à proximité</string>
+        <string name="ErreurRecuperationRue">Erreur lors de la récupération de la ville à proximité</string>
+        <string name="ErreurRecuperationFicheGeol">Erreur lors de la récupération de la fiche géologique</string>
+        <string name="ErreurRecuperationLegendeGeol">Erreur lors de la récupération de la légende géologique</string>
+        <string name="iconBSS">bss.png</string>
+        <string name="infoWindowLocation">Localisation : %s</string>
+        <string name="infoWindowDepth">Profondeur : %s m</string>
+        <string name="infoWindowReference">Référence : %s</string>
+        <string name="infoWindowInfoClick">Toucher pour voir la fiche</string>
+        <string name="GeonamesAccount">atos</string>
+        <string name="title_activity_fiche_bss">Fiche BSS</string>
+        <string name="alerteGPS">Le GPS ne semble pas activé</string>
+        <string name="alerteNework">Aucune connexion internet n\'a été trouvée</string>
+        <string name="ok">OK</string>
+        <string name="afficheFicheGeol">Afficher fiche géologique</string>
+        <string name="afficheLegende">Afficher légende</string>
+        <string name="nonRenseigne">non renseignée</string>
+
+
+
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_hello_google_map">HelloGoogleMapActivity</string>
+    <string name="mapKey">AIzaSyCEvLotbd_0_jw406DfS0XC5TgMGdbxw6U</string>
+    <string name="close">Close</string>
+    <string name="open">Open</string>
+
+    <string name="option1">Option 1</string>
+    <string name="option2">Option 2</string>
+    <string name="option3">Option 3</string>
+
+    <string name="attribution">Weather data by OpenWeatherMap.org</string>
+    <string name="error_fetch_weather">Could not fetch weather data</string>
+    <string name="error_location_unavailable">Could not get current location</string>
+    <string name="today">Today</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="monday">Monday</string>
+    <string name="sky_is_clear">sky is clear</string>
+    <string name="nineteen_degrees">19°</string>
+    <string name="fifteen_degrees">15°</string>
+
+
+    </resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="urlGeonameNearByStreet">"http://api.geonames.org/findNearbyStreetsOSM?username=%s&amp;</string>
+    <string name="urlGeonameSrtm3">http://api.geonames.org/srtm3?username=%s</string>
+    <string name="urlGeonameSearch">http://api.geonames.org/search?username=%s&amp;country=FR&amp;type=JSON&amp;maxRows=10&amp;lang=FR&amp;orderby=relevance&amp;name_startsWith=</string>
+    <string name="urlPlaces">http://api.geonames.org/findNearbyPlaceName?username=%s&amp;</string>
+</resources>

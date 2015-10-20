@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivityTablet">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2">
+
+
+        <fragment android:name="fr.brgm.georisques.ui.fragment.tablet.MenuGaucheFragment"
+            android:id="@+id/fragment_menu_gauche"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_margin="@dimen/small_vertical_margin"
+            android:layout_height="match_parent"
+            tools:layout="@layout/fragment_menu_gauche" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="5">
+
+        <fragment android:name="fr.brgm.georisques.ui.fragment.tablet.BandeauFragment"
+            android:id="@+id/fragment_bandeau"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/small_vertical_margin"
+            android:layout_marginRight="@dimen/small_vertical_margin"
+            android:layout_weight="0.4"
+            tools:layout="@layout/fragment_bandeau"
+            android:layout_height="0dp" />
+
+        <fragment android:name="fr.brgm.georisques.ui.fragment.tablet.CarteFragment"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/small_vertical_margin"
+            android:layout_marginRight="@dimen/small_vertical_margin"
+            android:layout_marginBottom="@dimen/small_vertical_margin"
+            android:layout_weight="4"
+            android:id="@id/fragment_carte"
+            tools:layout="@layout/fragment_carte"
+            android:layout_height="0dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
