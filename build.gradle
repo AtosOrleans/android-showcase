@@ -46,6 +46,7 @@ android {
 
 
 repositories {
+    mavenLocal()
     mavenCentral()
     maven {url "https://clojars.org/repo/"}
 }
